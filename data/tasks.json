@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    {
+      "id": "task-001",
+      "title": "🎬 Podcast Clipper - Complete Development",
+      "status": "in-progress",
+      "priority": "high",
+      "assignee": "Designer",
+      "description": "Finish podcast clipper open-source tool (OpusClip alternative). 90% complete."
+    },
+    {
+      "id": "task-002",
+      "title": "🎨 Photo Overlay Carousel Template",
+      "status": "in-progress",
+      "priority": "high",
+      "assignee": "Designer",
+      "description": "Build render_photo_overlay_carousel.py based on 6 reference images"
+    },
+    {
+      "id": "task-003",
+      "title": "💼 MarginandMedia.com Redesign",
+      "status": "backlog",
+      "priority": "urgent",
+      "assignee": "Dev",
+      "description": "#1 revenue source needs professional site showcasing AI capabilities"
+    },
+    {
+      "id": "task-004",
+      "title": "🎓 AI with Amin YouTube - Voice Sample",
+      "status": "backlog",
+      "priority": "medium",
+      "assignee": "Islam",
+      "description": "Record 5min voice sample for ElevenLabs clone"
+    }
+  ]
+}
