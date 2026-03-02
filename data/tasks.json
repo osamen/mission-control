@@ -3,18 +3,24 @@
     {
       "id": "task-001",
       "title": "🎬 Podcast Clipper - Complete Development",
-      "status": "in-progress",
+      "status": "in_progress",
       "priority": "high",
       "assignee": "Designer",
-      "description": "Finish podcast clipper open-source tool (OpusClip alternative). 90% complete."
+      "description": "Finish podcast clipper open-source tool (OpusClip alternative). 90% complete - final render script and testing.",
+      "labels": ["development", "video", "automation"],
+      "createdAt": "2024-02-15T10:00:00Z",
+      "updatedAt": "2024-03-02T22:00:00Z"
     },
     {
       "id": "task-002",
       "title": "🎨 Photo Overlay Carousel Template",
-      "status": "in-progress",
+      "status": "in_progress",
       "priority": "high",
       "assignee": "Designer",
-      "description": "Build render_photo_overlay_carousel.py based on 6 reference images"
+      "description": "Build render_photo_overlay_carousel.py based on 6 reference images. Create reusable template for photo-based carousels.",
+      "labels": ["design", "carousel", "templates"],
+      "createdAt": "2024-03-02T17:00:00Z",
+      "updatedAt": "2024-03-02T21:00:00Z"
     },
     {
       "id": "task-003",
@@ -22,7 +28,10 @@
       "status": "backlog",
       "priority": "urgent",
       "assignee": "Dev",
-      "description": "#1 revenue source needs professional site showcasing AI capabilities"
+      "description": "#1 revenue source needs professional site showcasing AI capabilities (carousels, clips, SEO automation). Current site is outdated.",
+      "labels": ["website", "revenue", "urgent"],
+      "createdAt": "2024-02-20T14:00:00Z",
+      "updatedAt": "2024-03-02T20:00:00Z"
     },
     {
       "id": "task-004",
@@ -30,7 +39,104 @@
       "status": "backlog",
       "priority": "medium",
       "assignee": "Islam",
-      "description": "Record 5min voice sample for ElevenLabs clone"
+      "description": "Record 5min voice sample for ElevenLabs clone ($5/mo). Script templates ready. Decide content schedule (1/week or 2/week).",
+      "labels": ["youtube", "voice", "blocked"],
+      "createdAt": "2024-02-11T08:00:00Z",
+      "updatedAt": "2024-03-02T19:00:00Z"
+    },
+    {
+      "id": "task-005",
+      "title": "💧 Activate n8n Watermark Webhook",
+      "status": "backlog",
+      "priority": "low",
+      "assignee": "Mo",
+      "description": "Open n8n UI at http://srv1300049.hstgr.cloud:32768, find 'Image Watermark API' workflow (ID: vwUH812FHyMV0f5e), toggle Active.",
+      "labels": ["automation", "n8n", "quick-win"],
+      "createdAt": "2024-02-28T16:00:00Z",
+      "updatedAt": "2024-03-02T18:00:00Z"
+    },
+    {
+      "id": "task-006",
+      "title": "🏪 Shra2 - Complete Integration",
+      "status": "review",
+      "priority": "medium",
+      "assignee": "Dev",
+      "description": "Three items pending: Port 443 for Messenger inbound, Instagram token, Pixel events (ViewContent + AddToCart). n8n workflows paused.",
+      "labels": ["client", "integration", "shra2"],
+      "createdAt": "2024-02-25T12:00:00Z",
+      "updatedAt": "2024-03-02T17:00:00Z"
+    },
+    {
+      "id": "task-007",
+      "title": "📊 FMCG Price Tracker - Production Deploy",
+      "status": "backlog",
+      "priority": "low",
+      "assignee": "Mo",
+      "description": "Built and tested (Carrefour, Panda, Danube). Currently on-demand only. Consider scheduling or offering to clients.",
+      "labels": ["tool", "analytics", "saudi-market"],
+      "createdAt": "2024-02-27T09:00:00Z",
+      "updatedAt": "2024-03-02T16:00:00Z"
+    },
+    {
+      "id": "task-008",
+      "title": "✅ Batch Watermark Tool",
+      "status": "done",
+      "priority": "low",
+      "assignee": "Mo",
+      "description": "GitHub repo published (github.com/osamen/batch-watermark). CLI + Python API + n8n webhook. Just needs webhook activation (task-005).",
+      "labels": ["completed", "github", "tool"],
+      "createdAt": "2024-02-28T10:00:00Z",
+      "updatedAt": "2024-02-28T21:00:00Z"
+    },
+    {
+      "id": "task-009",
+      "title": "✅ Notion Integration",
+      "status": "done",
+      "priority": "medium",
+      "assignee": "Mo",
+      "description": "Full API access established. ToDo list accessible (ae98595d-b971-8265-b657-81762836d661). All 15 projects documented.",
+      "labels": ["completed", "integration", "notion"],
+      "createdAt": "2024-03-02T00:00:00Z",
+      "updatedAt": "2024-03-02T01:00:00Z"
+    },
+    {
+      "id": "task-010",
+      "title": "✅ Email Automation for All Agents",
+      "status": "done",
+      "priority": "medium",
+      "assignee": "Mo",
+      "description": "All agents authorized to email islam.amin2012@gmail.com. SMTP configured, permissions documented in EMAIL_PERMISSIONS.md.",
+      "labels": ["completed", "automation", "email"],
+      "createdAt": "2024-03-02T14:00:00Z",
+      "updatedAt": "2024-03-02T17:00:00Z"
+    },
+    {
+      "id": "task-011",
+      "title": "✅ Seedance 2.0 Prompting Guide",
+      "status": "done",
+      "priority": "low",
+      "assignee": "Mo",
+      "description": "Analyzed 530+ prompts from youmind.com. Created comprehensive guide (11.6KB) + quick reference. Video prompting mastered.",
+      "labels": ["completed", "skills", "prompting"],
+      "createdAt": "2024-03-02T20:00:00Z",
+      "updatedAt": "2024-03-02T21:30:00Z"
+    },
+    {
+      "id": "task-012",
+      "title": "✅ MeiGen.ai Prompting Guide",
+      "status": "done",
+      "priority": "low",
+      "assignee": "Mo",
+      "description": "Analyzed 12 trending prompts (500K+ views). Created master guide (19KB) covering all agency styles. Static image prompting mastered.",
+      "labels": ["completed", "skills", "prompting"],
+      "createdAt": "2024-03-02T21:00:00Z",
+      "updatedAt": "2024-03-02T22:00:00Z"
     }
-  ]
+  ],
+  "metadata": {
+    "lastUpdated": "2024-03-02T23:58:00Z",
+    "version": "1.1",
+    "owner": "Islam Amin",
+    "workspace": "/root/.openclaw/workspace"
+  }
 }
